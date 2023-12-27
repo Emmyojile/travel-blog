@@ -1,0 +1,6 @@
+{
+    "bitoAI.codeCompletion.setAutoCompletionTriggerLogic": 200,
+    "bitoAI.codeCompletion.enableAutoCompletion": true,
+    "bitoAI.codeCompletion.enableCommentToCode": true,
+    "editor.defaultFormatter": "Bito.Bito"
+}
