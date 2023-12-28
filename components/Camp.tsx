@@ -48,6 +48,7 @@ const CampSite = ({backgroundImage, title, subtitle, peopleJoined}:CampProps) =>
   )
 }
 
+
 const Camp = () => {
   return (
     <section className='border-2 border-green-500 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20'>
@@ -66,8 +67,20 @@ const Camp = () => {
         />
 
       </div>
-      <div className="flexEnd mt-10">
-
+      <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-60 ">
+        <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
+        <h2 className='regular-24 md:regular-32 2xl:regular-64 text-white'><b>Feeling Lost</b> And Not Knowing The Way?</h2>
+        <p className="regular-14  xl:regular-16 mt-5 text-white">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem dignissimos non in distinctio harum, placeat pariatur veritatis et illo. Lorem ipsum dolor sit amet.loreminis, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem dignissimos non in distinctio harum
+        </p>
+        <Image
+        src="/quote.svg"
+        alt='quote-img'
+        width={186}
+        height={219}
+        className='absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0'
+        />
+        </div>
       </div>
     </section>
   )
